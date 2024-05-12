@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'neu';
+    src: url('/Assets/659dbdfd5a080be8d3483173_Satoshi-Variable.woff2');
+}
+@font-face {
+    font-family: 'neu2';
+    src: url('/Assets/659dbdfd5a080be8d348316e_PP\ Neue\ Machina\ Inktrap\ Medium.woff2');
+}
+@font-face {
+    font-family: 'neu3';
+    src: url('/Assets/659dbdfd5a080be8d348316f_PPNeueMachina_\ Light.woff2');
+}
+
+body[theme="black"]{
+    background-color: black;
+}
+
+body[theme="cyan"]{
+    background-color: #AEDEE0;
+    color: black;
+}
+
+body[theme="salmon"]{
+    background-color: #EF9D71;
+    color: black;
+}
+
+body[theme="white"]{
+    background-color: #fff;
+    color: black;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100vh;
+    transition: all ease 0.5s;
+}
+
+main{
+    color: white;
+}
+
+.marquee-con .row img{
+    width: 2vw;
+}
+
+video-area{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+.marquee-con .row{
+    gap: 1vw;
+}
+
+.marquee-con .row .elem{
+    display: flex; 
+    gap: 1vw;
+    align-items: center;
+}
